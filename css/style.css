@@ -47,6 +47,15 @@ border-color: red;
     border-color: blue
 }
 
+.link{
+
+    text-align: center;
+    font-size: 30px;
+    border: 2px solid black;
+    width: 25%;
+    margin: 0 auto
+}
+
 .footer{
     text-align: center;
     font-family: 'Lobster', sans-serif;
