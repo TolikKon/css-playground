@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lobster&family=Nova+Square&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: whitesmoke;
+    overflow: hidden;
+}
+
+.container {
+    width: 60%;
+    margin: 32px auto;
+}
+
+.header {
+    height: 250px;
+    text-align: center;
+}
+
+.header h1 {
+    color: blueviolet;
+    font-style: birthstone bounce;
+    font-family: 'Nova Square', sans-serif;
+    font-size: 5rem;
+    position: relative; 
+    animation: header;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes header {
+    0% {top: -500px;}
+    100% {top: 100px;}
+}
+
+.main {
+    color: black;
+    font-style: birthstone bounce;
+    font-family: 'Nova Square', sans-serif;
+    line-height: 2;
+}
+
+.text-left {
+    position: relative;
+    font-size: 2rem;
+    animation: textLeft;
+    animation-duration: 4s;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes textLeft {
+    0% {left: -1000px;}
+    85% {left: 50px;}
+    100% {left: 0;}
+}
+
+.text-right {
+    margin-top: 32px;
+    font-size: 2rem;
+    position: relative;
+    text-align: right;
+    animation: textRight;
+    animation-duration: 4s;
+}
+
+@keyframes textRight {
+0% {right: -1000px;}
+85% {right: 50px;}
+100% {right: 0;}
+}
+
+.footer {
+    text-align: center;
+}
+
+.button {
+    opacity: 0;
+    border: 2px solid black;
+    color: black;
+    font-size: 4rem;
+    font-style: birthstone bounce;
+    font-family: 'Nova Square', sans-serif;
+    display: inline-block;
+    padding: 1rem;
+    margin: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    animation: fade;
+    animation-duration: 3s;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fade {
+    0% {opacity: 0;} /*0 - 1*/
+    100% {opacity: 1;}
+    
+}
+
+
+.link2{
+
+    text-align: center;
+    font-size: 30px;
+    width: 25%;
+    margin: 0 auto
+}
+
+.footer{
+    text-align: center;
+    font-family: 'Lobster', sans-serif;
+    font-size: 2rem;
+    color: black;
+}
